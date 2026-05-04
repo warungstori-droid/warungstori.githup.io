@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>warung koko</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+       <link rel="stylesheet" type="text/css" href="css/style.css">
+       <link rel="stylesheet" type="text/css" href="css/keranjang.css">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="image/keranjang.png" width="40" height="30" class="me-2">
+      warung<strong> store</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+          <form class="d-flex ms-auto">
+      <input class="form-control me-2" type="search" placeholder="cari barang" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.html">beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">notifikasi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="keranjang.html">keranjang</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="styleregistrasi.html">daftar</a>
+        </li>
+           <li class="nav-item">
+          <a class="nav-link" href="index.html">masuk</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class:container>
+    <nav aria-label="breadcrum" style="background-color: aliceblue" class="mt-3">
+        <nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-3">
+    <li class="breadcrumb-item"><a href="#" class="text-decoration-none">beranda</a></li>
+    <li class="breadcrumb-item active" aria-current="page">keranjang</li>
+  </ol>
+</nav>
+    </nav>
+</div>
+<!--keranjang-->
+<div class="container">
+    <div class="row row-container">
+        <div class="col">
+            <table class="table">
+  <thead class="table-primary">
+    <tr>
+      <th scope="col">hapus</th>
+      <th scope="col">produck</th>
+      <th scope="col">gambar</th>
+      <th scope="col">Harga</th>
+      <th scope="col">jumlah</th>
+      <th scope="col">sub total</th>
+    </tr>
+  </thead>
+  <tbody class="align-middle">
+    <tr>
+      <th scope="row"><i class="fa-solid fa-trash"></i></th>
+      <td>ikan cupang</td>
+      <td><img src="image/ikan.jpg" class="img-keranjang" width="50px" ></td>
+      <td>Rp.15000</td>
+      <td>
+        <button class="btn btn-dark btn-sm">-</button>
+        <span class="mx-2">1</span>
+        <button class="btn btn-dark btn-sm">+</button>
+      </td>
+      <td>Rp.15000</td>
+    </tr>
+    <tr>
+      <th scope="row"><i class="fa-solid fa-trash"></i></th>
+      <td>ikan cupang</td>
+      <td><img src="image/benang.jpg" class="img-keranjang" width="50px" ></td>
+      <td>Rp.12000</td>
+      <td>
+        <button class="btn btn-dark btn-sm">-</button>
+        <span class="mx-2">1</span>
+        <button class="btn btn-dark btn-sm">+</button>
+      </td>
+      <td>Rp.12000</td>
+    </tr>
+     <tr>
+      <th scope="row"><i class="fa-solid fa-trash"></i></th>
+      <td>layangan</td>
+      <td><img src="image/layangan (2).jpg" class="img-keranjang" width="50px" ></td>
+      <td>Rp.3000</td>
+      <td>
+        <button class="btn btn-dark btn-sm">-</button>
+        <span class="mx-2">1</span>
+        <button class="btn btn-dark btn-sm">+</button>
+      </td>
+      <td>Rp.3000</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col">
+ <table class="table">
+  <thead>
+    <tr>
+   <th scope="col" colspan="2">total keranjang belanja</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="fw-bold">total harga</td>
+      <td>Rp.30.000</td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-dark btn-sm">checkout</button></td>
+  </div>
+    </tr>
+  </tbody>
+</table>
+  
+        </div>
+    </div>
+</div>
+
+<!--keranjang-->
+
+   <!--footer-->
+        <footer class="bg-light p-5 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="" class="decoration-none">
+          <img src="image/keranjang.png" style="width: 30px;">
+        </a>
+          <span>copyright @2026 | created and develope</span>
+      </div>
+
+      <div class="col-md-6 text-end">
+        <a href="" class="decoration-none">
+          <img src="sosialMedia/facebook.png" class="ms-2" style="width: 30px;">
+        </a>
+    <a href="" class="decoration-none">
+          <img src="sosialMedia/instagram.png" class="ms-2" style="width: 30px;">
+        </a>   
+
+        <a href="" class="decoration-none">
+          <img src="sosialMedia/linkedin.png" class="ms-2" style="width: 30px;">
+        </a>
+
+        <a href="" class="decoration-none">
+          <img src="sosialMedia/twitter.png" class="ms-2" style="width: 30px;">
+        </a>
+
+
+    </div>
+  </div>
+    </footer>
+
+   <!--footer-->
+ 
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
