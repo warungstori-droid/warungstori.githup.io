@@ -1,1 +1,1 @@
-warungstori
+warungstori.githup.io
